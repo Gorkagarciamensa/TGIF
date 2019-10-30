@@ -11,7 +11,7 @@ if (url.includes("senate")) {
   url = "https://api.propublica.org/congress/v1/113/senate/members.json";
 } else if (url.includes("house")) {
   url = "https://api.propublica.org/congress/v1/113/house/members.json";
-} else if (url.includes("home")) {
+} else if (url.includes("index")) {
   btnText.addEventListener("click", myFunction);
 } else {
   console.log("Not in the correct page");
